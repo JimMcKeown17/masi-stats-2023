@@ -8,9 +8,9 @@
     --h1-height: 108px;
     --h2-size: 50px;
     --h2-height: 75px;
-    --h3-size: 40px;
-    --h4-size: 32px;
-    --h5-size: 28px;
+    --h3-size: 32px;
+    --h4-size: 28px;
+    --h5-size: 24px;
     --h6-size: 22px;
     --subtitle-size: 17px;
     --subtitle-height: 26px;
@@ -36,6 +36,7 @@
     --spacing-md: 16px;
     --spacing-lg: 32px;
     --spacing-xl: 64px;
+    --standard-width: 1244px;
 
 }
 
@@ -75,6 +76,7 @@ h3 {
     font-family: var(--heading-font);
     font-size: var(--h3-size);
     margin: 0;
+    margin-top: 50px;
     width: 100%;
 }
 
@@ -190,7 +192,7 @@ p {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    max-width: var(--standard-width); 
+    max-width: 100%; /* Adjusted to 100% or you can set a specific value */
     padding: 0;
     margin: auto auto 20px auto; 
 }
@@ -207,4 +209,17 @@ p {
 .menu a{
     color: var(--text-dark);
     margin: 0 var(--spacing-md);
+}
+
+.menu a:hover{
+
+    text-decoration: underline;
+}
+
+.section-container {
+    text-align: center;
+    width: 100%;
+    max-width: var(--standard-width); /* Adjusted based on the root variable */
+    margin: 0 auto; /* Centers the container */
+    padding: 0 var(--spacing-lg); /* Optional: Adds padding inside the container */
 }
