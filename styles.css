@@ -106,6 +106,16 @@ h6 {
     width: 100%;
 }
 
+#primary_home, .col-image {
+    width: 100%;
+    margin-top: 20px;
+}
+
+#ecd_home {
+    width: 100%;
+    margin-top: 20px;
+}
+
 a {
     text-decoration: none;
     color: var(--purple-1);
@@ -137,7 +147,7 @@ p {
     font-size: var(--p-size);
     line-height: var(--p-height);
     font-weight: 400;
-    margin: var(--spacing-md);
+    margin: var(--spacing-md) 0;
 }
 
 .secondary-text {
@@ -222,4 +232,38 @@ p {
     max-width: var(--standard-width); /* Adjusted based on the root variable */
     margin: 0 auto; /* Centers the container */
     padding: 0 var(--spacing-lg); /* Optional: Adds padding inside the container */
+}
+
+
+.two-column {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+    align-items: flex-start;
+
+}
+
+.two-column > .col-left {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 var(--spacing-md 0 0);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    text-align: left;
+
+}
+
+.two-column > .col-right {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 0 0 var(--spacing-md);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    text-align: left;
 }
