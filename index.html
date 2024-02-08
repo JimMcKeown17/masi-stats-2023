@@ -9,6 +9,12 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@100;200;300;400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,100&family=DM+Serif+Display:ital@0;1&family=Roboto:wght@100;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
     <title>Masi Stats</title>
   </head>
@@ -45,24 +51,202 @@
           </div>
         </div>
       </div>
-      <div class="two-column">
-        <div class="col-left">
-          <h3>Primary Children</h3>
-          <p>
-            On average, our primary school children outperformed the control
-            group by 43%. Compounded over 2-3 years, children on the programme
-            will learn to read, write and comprehend twice as fast as their
-            peers.
-          </p>
+    </div>
+    <!-- STATS BAR -->
+    <!--begin stats-bar -->
+    <div class="stats-bar-wrapper">
+      <!--begin image-overlay -->
+      <div class="image-overlay"></div>
+      <!--end image-overlay -->
+
+      <!--begin container-->
+      <div class="container stats-bar-inside">
+        <!--begin row-->
+        <div class="row">
+          <!--begin stats-bar-box -->
+          <div
+            class="stats-bar-box text-center wow fadeIn"
+            data-wow-delay="0.15s"
+          >
+            <!-- <i class="icon icon-design-pencil-rule-streamline"></i> -->
+            <img class="icon-small" src="images/child.svg" alt="" />
+            <p class="stats-bar-title">
+              <span class="facts-numbers">104</span><br />Schools
+            </p>
+          </div>
+          <!--end stats-bar-box -->
+
+          <!--begin stats-bar-box -->
+          <div
+            class="stats-bar-box text-center wow fadeIn"
+            data-wow-delay="0.3s"
+          >
+            <img class="icon-small-blue" src="images/letters.svg" alt="" />
+
+            <p class="stats-bar-title">
+              <span class="facts-numbers">18215</span><br />Children Benefitting
+            </p>
+          </div>
+          <!--end stats-bar-box -->
+
+          <!--begin stats-bar-box -->
+          <div
+            class="stats-bar-box text-center wow fadeIn"
+            data-wow-delay="0.45s"
+          >
+            <img class="icon-small" src="images/youth.svg" alt="" />
+
+            <p class="stats-bar-title">
+              <span class="facts-numbers">351</span><br />Jobs Created
+            </p>
+          </div>
+          <!--end stats-bar-box -->
+
+          <!--begin stats-bar-box -->
+          <div
+            class="stats-bar-box text-center wow fadeIn"
+            data-wow-delay="0.6s"
+          >
+            <img class="icon-small-blue" src="images/clock.svg" alt="" />
+
+            <p class="stats-bar-title">
+              <span class="facts-numbers">31,302</span><br />Hours of Sessions
+            </p>
+          </div>
+          <!--end stats-bar-box -->
+
+          <!--begin stats-bar-box -->
+          <div
+            class="stats-bar-box text-center wow fadeIn"
+            data-wow-delay="0.75s"
+          >
+            <img class="icon-small" src="images/graph-up.svg" alt="" />
+
+            <p class="stats-bar-title">
+              <span class="facts-numbers">61%</span><br />Improvement
+            </p>
+          </div>
+          <!--end stats-bar-box -->
         </div>
-        <div class="col-right">
-          <img
-            id="primary_home"
-            src="static/primary_performance_vs_control.png"
-            alt=""
-          />
+        <!--end row-->
+      </div>
+      <!--end container-->
+    </div>
+    <!--end stats-bar -->
+    <!-- FOUR TIERS ANALYSIS SECTION -->
+    <div class="section-grey">
+      <div class="container analysis-section">
+        <!--begin row-->
+        <div class="row margin-bottom-50">
+          <!--begin col-md-12-->
+          <div class="col text-center">
+            <h2 class="section-title">Tiers of Analysis</h2>
+
+            <div class="separator_wrapper">
+              <i class="icon icon-star-two blue"></i>
+            </div>
+
+            <p class="section-subtitle">
+              At Masinyusane, we analyze results across four tiers:
+              Programmatic, Site-level, Youth, and Children. Each tier provides
+              critical insights to understanding our programmes strengths,
+              opportunities, threats, and weaknesses.
+            </p>
+          </div>
+          <!--end col-md-12-->
+        </div>
+        <!--end row-->
+        <div class="row cards">
+          <div class="col-lg-3 col-md-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title text-center">Programmatic</h5>
+                <p class="card-text">
+                  Analyze the performance of different aspects of the programme
+                  across all sites.
+                </p>
+                <a href="#" class="btn btn-primary">Further Analysis</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title text-center">School</h5>
+                <p class="card-text">
+                  Analyze site-level (eg a school) performance relative to each
+                  other.
+                </p>
+                <a href="#" class="btn btn-primary">Further Analysis</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title text-center">Youth</h5>
+                <p class="card-text">
+                  Analyze the performance of specific youth and thier cohorts of
+                  children.
+                </p>
+                <a href="#" class="btn btn-primary">Further Analysis</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title text-center">Child</h5>
+                <p class="card-text">
+                  Analyze the performance of each specific child across a dozen
+                  metrics.
+                </p>
+                <a href="#" class="btn btn-primary">Further Analysis</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+    </div>
+    <!-- PRIMARY SCHOOL CHILDREN CHART -->
+    <div class="section-white">
+      <div class="row margin-bottom-50">
+        <!--begin col-md-12-->
+        <div class="col text-center">
+          <h2 class="section-title">Feature Stats</h2>
+
+          <div class="separator_wrapper">
+            <i class="icon icon-star-two blue"></i>
+          </div>
+
+          <p class="section-subtitle">
+            The following are a few highlight statistics from our flagship
+            programmes.
+          </p>
+        </div>
+        <!--end col-md-12-->
+      </div>
+      <div class="section-container">
+        <div class="two-column">
+          <div class="col-left">
+            <h3>Primary Children</h3>
+            <p>
+              On average, our primary school children outperformed the control
+              group by 43%. Compounded over 2-3 years, children on the programme
+              will learn to read, write and comprehend twice as fast as their
+              peers.
+            </p>
+          </div>
+          <div class="col-right">
+            <img
+              id="primary_home"
+              src="static/primary_performance_vs_control.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <!-- ECD CHILDREN CHART -->
 
       <div class="two-column">
         <div class="col-left">
