@@ -7,7 +7,7 @@ font-family: 'Roboto', sans-serif; */
     --text-dark: #000;
     --text-light: #fff;
     --text-grey: #adbdcc;
-    --body-font: 'DM Sans', sans-serif;
+    --body-font: 'Roboto', sans-serif;
     --heading-font: 'DM Serif Display', serif;
     --h1-size: 94px;
     --h1-height: 108px;
@@ -368,6 +368,10 @@ main img{
     box-shadow: var(--standard-box-shadow);
 } */
 
+.navbar-nav > li{
+    margin: 0 20px;
+}
+
 /* STATS ON TOP */
 
 .stats{
@@ -383,6 +387,9 @@ main img{
     justify-content: center;
     align-items: center;
 }
+
+
+
 .stats .card-container{
     display: flex;
     
@@ -522,4 +529,35 @@ main img{
 	font-size:44px;
 	line-height:60px;
 	color:var(--zz-blue);
+}
+
+.card-body .btn {
+    background-color: var(--primary-red);
+    border-color: var(--primary-red);
+}
+
+.card-body .btn:hover {
+    opacity: 80%;
+}
+
+/* .accordian-row{
+    display: flex;
+    justify-content: center;
+
+} */
+
+.accordion {
+    margin: 40px auto;
+    width: 75%;
+
+}
+
+.btn-accordian {
+    width: 50%;
+    margin-top: 20px;
+}
+
+.map-section{
+    margin-bottom: 10px;
+    padding-bottom: 0px;
 }

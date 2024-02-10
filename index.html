@@ -19,17 +19,67 @@
     <title>Masi Stats</title>
   </head>
   <body>
-    <nav class="navbar">
-      <img src="static/Masi Logo Colour.png" alt="logo" />
-      <ul class="menu">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="primary.html">Primary Schools</a></li>
-        <li><a href="ecdc.html">ECDCs</a></li>
-        <li><a href="youth.html">Literacy Coaches</a></li>
-        <li><a href="children.html">Children</a></li>
-        <li><a href="map.html">Where We Work</a></li>
-      </ul>
-    </nav>
+    <!-- NAVBAR -->
+    <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid justify-content-between">
+        <a class="navbar-brand" href="#">
+          <img id="nav-img" src="static/Masinyusne Logo Colour.png" />
+        </a>
+    
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor04" aria-controls="navbarColor04" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse justify-content-center" id="navbarColor04">
+          <ul class="navbar-nav">
+
+          <li class="nav-item">
+            <a class="nav-link" href="primary.html">Programmatic</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              data-bs-toggle="dropdown"
+              href="#"
+              role="button"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Schools & ECDCs</a
+            >
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Primary Schools</a>
+              <a class="dropdown-item" href="#">ECDCs</a>
+            </div>
+          </li>
+            <li class="nav-item">
+              <a class="nav-link" href="youth.html">Youth</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="children.html">Children</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                href="#"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >About Us</a
+              >
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="map.html">Where We Work</a>
+                <a class="dropdown-item" href="https://www.masinyusane.org">Masi Website</a>
+              </div>
+            </li>
+            
+
+        </ul>
+
+        </form>
+      </div>
+    </div>
+  </nav>
 
     <div class="section-container">
       <div class="hero">
@@ -133,81 +183,6 @@
       <!--end container-->
     </div>
     <!--end stats-bar -->
-    <!-- FOUR TIERS ANALYSIS SECTION -->
-    <div class="section-grey">
-      <div class="container analysis-section">
-        <!--begin row-->
-        <div class="row margin-bottom-50">
-          <!--begin col-md-12-->
-          <div class="col text-center">
-            <h2 class="section-title">Tiers of Analysis</h2>
-
-            <div class="separator_wrapper">
-              <i class="icon icon-star-two blue"></i>
-            </div>
-
-            <p class="section-subtitle">
-              At Masinyusane, we analyze results across four tiers:
-              Programmatic, Site-level, Youth, and Children. Each tier provides
-              critical insights to understanding our programmes strengths,
-              opportunities, threats, and weaknesses.
-            </p>
-          </div>
-          <!--end col-md-12-->
-        </div>
-        <!--end row-->
-        <div class="row cards">
-          <div class="col-lg-3 col-md-6">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title text-center">Programmatic</h5>
-                <p class="card-text">
-                  Analyze the performance of different aspects of the programme
-                  across all sites.
-                </p>
-                <a href="#" class="btn btn-primary">Further Analysis</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title text-center">School</h5>
-                <p class="card-text">
-                  Analyze site-level (eg a school) performance relative to each
-                  other.
-                </p>
-                <a href="#" class="btn btn-primary">Further Analysis</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title text-center">Youth</h5>
-                <p class="card-text">
-                  Analyze the performance of specific youth and thier cohorts of
-                  children.
-                </p>
-                <a href="#" class="btn btn-primary">Further Analysis</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title text-center">Child</h5>
-                <p class="card-text">
-                  Analyze the performance of each specific child across a dozen
-                  metrics.
-                </p>
-                <a href="#" class="btn btn-primary">Further Analysis</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
     <!-- PRIMARY SCHOOL CHILDREN CHART -->
     <div class="section-white">
       <div class="row margin-bottom-50">
@@ -266,5 +241,211 @@
         </div>
       </div>
     </div>
+
+    <!-- FOUR TIERS ANALYSIS SECTION -->
+    <div class="section-grey">
+      <div class="container analysis-section">
+        <!--begin row-->
+        <div class="row margin-bottom-50">
+          <!--begin col-md-12-->
+          <div class="col text-center">
+            <h2 class="section-title">Tiers of Analysis</h2>
+
+            <div class="separator_wrapper">
+              <i class="icon icon-star-two blue"></i>
+            </div>
+
+            <p class="section-subtitle">
+              At Masinyusane, we analyze results across four tiers:
+              Programmatic, Site-level, Youth, and Children. Each tier provides
+              critical insights to understanding our programmes strengths,
+              opportunities, threats, and weaknesses.
+            </p>
+          </div>
+          <!--end col-md-12-->
+        </div>
+        <!--end row-->
+        <div class="row cards">
+          <div class="col-lg-3 col-md-6">
+            <div class="card">
+              
+                <div class="card-header">
+                <h5 class="card-title text-center">Programmatic</h5></div>
+              
+                <div class="card-body">
+                <p class="card-text">
+                  Analyze the performance of different aspects of the programme
+                  across all sites.
+                </p>
+                <a href="#" class="btn btn-primary">Further Analysis</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="card">
+              <div class="card-header">
+                <h5 class="card-title text-center">School</h5>
+              </div>
+              <div class="card-body">
+                
+                <p class="card-text">
+                  Analyze site-level (eg a school or ECDC) performance relative to each
+                  other.
+                </p>
+                <a href="#" class="btn btn-primary">Further Analysis</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="card">
+              <div class="card-header"><h5 class="card-title text-center">Youth</h5></div>
+                <div class="card-body">
+                <p class="card-text">
+                  Analyze the performance of specific youth and thier cohorts of
+                  children.
+                </p>
+                <a href="#" class="btn btn-primary">Further Analysis</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="card">
+              <div class="card-header"><h5 class="card-title text-center">Child</h5></div>
+              <div class="card-body">
+                
+                <p class="card-text">
+                  Analyze the performance of each specific child across a dozen
+                  metrics.
+                </p>
+                <a href="#" class="btn btn-primary">Further Analysis</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+        <!-- WHERE WE WORK -->
+        <div class="section-white  map-section">
+          <div class="container">
+            <div class="section-container">
+              <!--begin row-->
+              <div class="row margin-bottom-30">
+                <!--begin col-md-12-->
+                <div class="col-md-12 text-center">
+                  <h2 class="section-title">Where We Work</h2>
+    
+                  <div class="separator_wrapper">
+                    <i class="icon icon-star-two red"></i>
+                  </div>
+    
+                  <p class="section-subtitle">
+Masinyusane works in the Eastern Cape of South Africa. The majority of our work is in the city of Gqeberha, though we have a variety of rural and semi-rural project sites.                </div>
+                <!--end col-md-12-->
+              </div>
+              <!--end row-->
+        
+              <iframe
+                src="static/masi_map_light.html"
+                width="1200"
+                height="700"
+              ></iframe>
+    
+    
+            </div>
+          </div>
+        </div>
+        <!--OPEN SOURCE SECTION-->
+        <section id="opensource">
+          <!--begin section-white-->
+          <div class="section-grey small-padding-bottom">
+            <!--begin container-->
+            <div class="container">
+              <!--begin row-->
+              <div class="row margin-bottom-30">
+                <!--begin col-md-12-->
+                <div class="col-md-12 text-center">
+                  <h2 class="section-title">Open Source Material</h2>
+    
+                  <div class="separator_wrapper">
+                    <i class="icon icon-star-two red"></i>
+                  </div>
+    
+                  <p class="section-subtitle">
+Masinyusane built it's programmes on the backs of giants like Wordworks and Shine Literacy and are opensourcing all of our materials as well to anyone who wants to use the, improve them, or crititque them.                </p>
+                </div>
+                <!--end col-md-12-->
+              </div>
+              <!--end row-->
+    
+              <div class="row accordian-row">
+                <div class="accordion" id="accordion">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        Assessment Tools
+                      </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <strong> We developed a WelaPLUS assessment tool.</strong> It builds upon Wordworks open-source WELA too. In addition, we have developed a variety of quick-hit one-minute assessments to be implemented quickly.
+                       <br> <a class="btn btn-danger btn-accordian" href="">Download</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Data Integrity Tools
+                      </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <strong>We have developed a series of Python scripts to check data integrity.</strong> You can customize the code yourself and run locally, or utilize this template and uplaod to our Masi Data Checker website. Ensuring your data is accurate is the first critical step to analyzing it properly.
+                        <br><a class="btn btn-danger btn-accordian" href="">Download</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Management Tools
+                      </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <strong>We utilize a variety of tools and checklists to manage each school and/or project site.</strong> Feel free to download here and use or change as you see fit.
+                        <br><a class="btn btn-danger btn-accordian" href="">Download</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Research and Publications
+                      </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <strong>Masinyusane's programmes have been evaluated numerous times.</strong> You can find some research and publications here.
+                        <br><a class="btn btn-danger btn-accordian" href="">Download</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--end col-sm-4-->
+              </div>
+            </div>
+            <!--end container-->
+          </div>
+          <!--end section-white-->
+        </section>
+        <!--end opensource-->
+
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"
+  ></script>
+  
   </body>
 </html>
